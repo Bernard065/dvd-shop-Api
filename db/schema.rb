@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_03_15_081540) do
+ActiveRecord::Schema[7.0].define(version: 2023_03_15_120334) do
   create_table "movies", force: :cascade do |t|
     t.string "title"
     t.integer "year"
@@ -22,6 +22,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_15_081540) do
     t.boolean "female_director"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "director"
   end
 
 end
