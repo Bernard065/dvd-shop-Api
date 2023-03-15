@@ -5,15 +5,15 @@ class MoviesController < ApplicationController
         render json: movies
     end
 
-    def show
-        movie = find_movie
-        render json: movie
-    end
+    # def show
+    #     movie = find_movie
+    #     render json: movie
+    # end
 
-    private
+    # private
 
-    def find_movie
-        Movie.find(params[:id])
-    end
+    # def find_movie
+    #     Movie.find(params[:id])
+    # end
 
 end
