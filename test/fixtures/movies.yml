@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  year: 1
+  length: 1
+  description: MyString
+  poster_url: MyString
+  category: MyString
+  discount: false
+  female_director: false
+
+two:
+  title: MyString
+  year: 1
+  length: 1
+  description: MyString
+  poster_url: MyString
+  category: MyString
+  discount: false
+  female_director: false
